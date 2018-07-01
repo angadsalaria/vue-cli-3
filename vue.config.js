@@ -1,13 +1,10 @@
-var CleanWebpackPlugin = require('clean-webpack-plugin');
-var path = require('path')
+var path = require('path');
+var webpack = require('./vue.webpack.config.js');
+
 
 module.exports = {
 
-  configureWebpack: {
+  // Merged into the final Webpack config
+  configureWebpack: webpack.config
 
-    // Merged into the final Webpack config
-    plugins: [
-       new CleanWebpackPlugin(['dist'])
-     ]
-  }
 }
