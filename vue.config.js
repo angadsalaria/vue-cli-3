@@ -1,6 +1,4 @@
-var path = require('path');
-var webpack = require('./vue.webpack.config.js');
-
+var webpack = require('./vue.webpack.config.js')
 
 module.exports = {
 
