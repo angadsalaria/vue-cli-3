@@ -15,5 +15,10 @@ module.exports = {
 
   pwa: {
     themeColor: '#63AED8'
+  },
+
+  devServer:{
+    port: 8080,
+    open: true
   }
 }
