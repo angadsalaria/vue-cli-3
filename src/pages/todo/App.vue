@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <section>
+    <section  class="todoapp">
 
       <header class="header">
         <h1>todos</h1>
