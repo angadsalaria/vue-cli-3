@@ -31,7 +31,7 @@ module.exports = {
 
   pages: {
     index: {
-      entry: 'src/main.js',
+      entry: 'src/pages/app/main.js',
       template: 'static/index.html',
       filename: 'index.html'
     }
